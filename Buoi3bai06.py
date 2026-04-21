@@ -15,16 +15,3 @@ for w in s:
         count += 1
 
 print(f"So tu '{work}' la {count}")
-
-#bai 13
-import re
-def chuan_hoa_chuoi(s):
-# Xoa Khoang trang dau cuoi
-    s = s.strip()
-
-    return s
-
-#Nhap
-text = """   Quê hương   là  chùm khế  ngọt .
-   Cho con trèo hái mỗi ngày .   """
-print(chuan_hoa_chuoi(s))
