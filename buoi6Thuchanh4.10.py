@@ -8,6 +8,7 @@ for x in S:
 #bai 4
 lst = input("Nhap Chuoi: ").split()
 print(lst)
+
 for x in lst:
     if lst.count(x) > 1:
         print('Chu đầu tiên trong là: ', x)
